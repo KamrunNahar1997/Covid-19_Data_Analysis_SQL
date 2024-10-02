@@ -9,7 +9,6 @@ from ProjectProfile..CovidVaccinations
 where continent is not null
 order by 3,4
 
---Select Data that we are going to be starting with
 
 select location, date, total_cases, new_cases, total_deaths, population
 from ProjectProfile..CovidDeaths
