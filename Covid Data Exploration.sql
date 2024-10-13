@@ -48,7 +48,7 @@ order by TotalDeathCount desc
 
 --BREAKING THINGS DOWN BY CONTINENT
 
---Showing contintents with the highest death count per population
+--Showing continents with the highest death count per population
 
 select continent, MAX(cast(total_deaths as int)) as TotalDeathCount
 from ProjectProfile..CovidDeaths
