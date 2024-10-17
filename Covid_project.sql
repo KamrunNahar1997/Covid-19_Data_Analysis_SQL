@@ -168,3 +168,40 @@ WHERE
     AND dea.hosp_patients_per_million IS NOT NULL
 ORDER BY 
     dea.location, dea.date;
+
+--Vaccination Progress by Population Density
+
+SELECT 
+    vac.continent, 
+    vac.location, 
+    vac.date, 
+    vac.population_density, 
+    vac.people_fully_vaccinated_per_hundred
+FROM 
+    ProjectProfile..CovidVaccinations vac 
+WHERE 
+    vac.people_fully_vaccinated_per_hundred IS NOT NULL
+ORDER BY 
+    vac.continent, vac.location, vac.date;
+
+
+--New Cases vs. New Vaccinations
+
+SELECT 
+    dea.continent, 
+    dea.location, 
+    dea.date, 
+    dea.new_cases, 
+    vac.new_vaccinations
+FROM 
+    ProjectProfile..CovidDeaths dea
+JOIN 
+    ProjectProfile..CovidVaccinations vac 
+ON 
+    dea.iso_code = vac.iso_code 
+    AND dea.date = vac.date
+WHERE 
+    dea.new_cases IS NOT NULL 
+    AND vac.new_vaccinations IS NOT NULL
+ORDER BY 
+    dea.continent, dea.location, dea.date;
