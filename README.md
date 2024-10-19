@@ -29,7 +29,7 @@ The Case Fatality Rate by Country map visualizes COVID-19 fatality rates across 
 Vaccination coverage and new COVID-19 cases are compared over time, from February to April 2021. The blue line, representing new cases smoothed per million, shows a rise in infections, peaking in March before slightly declining in April. Meanwhile, the orange line tracks the number of people vaccinated per hundred, showing a steady increase throughout the period. Despite the increasing vaccination rate, new cases continued to rise initially, likely due to the time required to build immunity. By April, the slight decline in cases may indicate the early effects of widespread vaccination. The chart suggests a lag in the impact of vaccination on reducing infections, but an eventual positive effect as vaccination coverage grows.
 
 ### Vaccination Inequality
-
+![Sheet 5 (1)](https://github.com/user-attachments/assets/3f032c2b-749e-4200-b3c9-63d294513923)
 Vaccination Inequality chart visualizes the number of people fully vaccinated across different continents using a bubble chart. Europe stands out with the largest bubble, indicating it has the highest number of vaccinated individuals. Africa, on the other hand, has the smallest bubble, reflecting the lowest vaccination numbers. North America, South America, and Asia have similar bubble sizes, suggesting a middle ground in terms of vaccination coverage, but they are all significantly behind Europe. The darker the bubble, the greater the number of vaccinated individuals, as shown by the color scale.
 
 ### Impact of Vaccination on ICU Patients
