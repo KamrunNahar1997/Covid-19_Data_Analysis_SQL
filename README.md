@@ -2,6 +2,7 @@
 
 This project focuses on analyzing COVID-19 vaccination rates, death trends, and related metrics using publicly available data. The analysis explores key relationships between vaccinations, infection resurgence, and mortality rates, leveraging SQL for data extraction and Tableau for visualizations. By examining the impact of vaccination on death rates, ICU admissions, and vaccination inequality across regions, this project aims to highlight how vaccination efforts have affected the global pandemic response.
 The project includes multiple SQL queries for extracting insights from the dataset, along with tailored visualizations to effectively showcase the findings. These visualizations include choropleth maps, dual-axis line charts, stacked area charts, and bubble charts to highlight vaccination progress, case fatality rates, and other key metrics.
+
 Check out Covid_Data_Exploration and Covid_Project for full codes. 
 
 
